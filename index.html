@@ -359,17 +359,6 @@
             </button>
           </div>
 
-          <div class="side-card" style="background: var(--green-800)">
-            <h4 style="color: white">Quick Scanner</h4>
-            <p style="color: rgba(255, 255, 255, 0.75)">
-              Scan a book or student ID to process a transaction instantly.
-            </p>
-            <button
-              style="background: white; color: var(--green-800); border: none"
-            >
-              Activate →
-            </button>
-          </div>
         </div>
       </aside>
 
@@ -940,49 +929,32 @@
 
               <div>
                 <div class="section-head">
-                  <h3 class="section-title">Quick Scanner</h3>
+                  <h3 class="section-title">Last Return</h3>
                 </div>
-                <div class="qr-card">
-                  <div
-                    style="
-                      font-size: 12px;
-                      text-transform: uppercase;
-                      letter-spacing: 0.1em;
-                      opacity: 0.7;
-                    "
-                  >
-                    Process Transaction
+                <div class="card" style="border:1.5px solid var(--green-200);background:var(--green-50);">
+                  <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+                    <div style="width:40px;height:40px;background:var(--green-700);border-radius:50%;display:grid;place-items:center;flex-shrink:0;">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <div>
+                      <div style="font-weight:700;font-size:15px;color:var(--green-900);">Book Successfully Returned</div>
+                      <div style="font-size:12px;color:var(--ink-500);margin-top:2px;">Scanned today · 09:42 AM</div>
+                    </div>
                   </div>
-                  <div class="qr-frame">
-                    <div class="qr-pattern"></div>
+                  <div style="background:white;border-radius:var(--radius-sm);padding:12px 14px;display:flex;flex-direction:column;gap:6px;">
+                    <div style="display:flex;justify-content:space-between;font-size:13px;">
+                      <span style="color:var(--ink-500);">Book</span>
+                      <span style="font-weight:600;color:var(--ink-900);">Clean Code</span>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;font-size:13px;">
+                      <span style="color:var(--ink-500);">Borrower</span>
+                      <span style="font-weight:600;color:var(--ink-900);">Shan A. Cruz</span>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;font-size:13px;">
+                      <span style="color:var(--ink-500);">Condition</span>
+                      <span style="font-weight:600;color:var(--green-700);">Good</span>
+                    </div>
                   </div>
-                  <h3
-                    style="
-                      font-family: var(--font-display);
-                      font-size: 18px;
-                      font-weight: 600;
-                      margin-bottom: 6px;
-                    "
-                  >
-                    Scan QR code
-                  </h3>
-                  <p
-                    style="font-size: 13px; opacity: 0.85; margin-bottom: 20px"
-                  >
-                    Point camera at book or user ID
-                  </p>
-                  <button
-                    class="btn btn-secondary"
-                    style="
-                      background: white;
-                      color: var(--green-800);
-                      border: none;
-                      width: 100%;
-                      justify-content: center;
-                    "
-                  >
-                    Activate scanner
-                  </button>
                 </div>
               </div>
             </div>
